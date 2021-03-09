@@ -2,7 +2,7 @@
 
 # Turtle Logo - Lesson #1
 
-## Turtle Logo - Lesson #1, with Sprites @unplugged
+## Turtle Logo - Lesson #1, with variables and sprites @unplugged
 **Welcome to coding with Turtle Logo.**
 
 In this lesson you will create your first Turtle Logo program, using variables and sprites. You will get a **Turtle Object** showing up in your game console and have it say, "Hello, World!".
