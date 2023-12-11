@@ -2,26 +2,26 @@
 
 # Turtle Logo - Lesson #1 - Advanced
 
-## Turtle Logo - Lesson #1, with variables and sprites @unplugged
-**Welcome to coding with Turtle Logo.**
+## Turtle Logo - Lesson #1, Programmiamo utilizzando variabili e sprite @unplugged
+**Welcome to coding with Omarillo Logo.**
 
-In this lesson you will create your first Turtle Logo program, using variables and sprites. You will get a **Turtle Object** showing up in your game console and have it say, "Hello, World!".
+In questa lezione creerai il tuo primo programma per Omarillo, utilizzando variabili e sprite. Verrà visualizzato un **Oggetto Tartaruga** nella tua console di gioco e dirà "Ciao, mondo!", come  **Turtle Object**  dice :
 ![Hello, World!](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-lesson1-advanced/raw/main/assets/hello_world_screenshot.png)
 
 ## Step 0
 ** Technical Stuff**
 
-Before you begin coding, you need to ensure you understand what variables are in programming and how to use them. A variable is just a memory location that the program uses to hold information. To create a variable you use the "Variables" menu and select "Make a Variable".
+Prima di iniziare a scrivere codice, devi assicurarti di comprendere quali variabili sono presenti nella programmazione e come utilizzarle. Una variabile è semplicemente una posizione di memoria utilizzata dal programma per conservare le informazioni. Per creare una variabile utilizzare il menu "Variables/Variabili" e selezionare "Make a Variable/Crea una variabile".
 
 ## Step 00
 ** Technical Stuff**
 
-Next the term "sprite" will also be used. A *sprite* is just a 2D image that will show up in our game console.
+Successivamente verrà utilizzato anche il termine "sprite". Uno *sprite* è semplicemente un'immagine 2D che verrà visualizzata nella nostra console di gioco.
 
 ## Step 000
 ** Follow Along**
 
-Create a variable called "myDuck".
+Crea una variabile chiamata "myDuck".
 ```blocks
 let myDuck = null
 ```
@@ -29,7 +29,8 @@ let myDuck = null
 ## Step 1
 ** Follow Along**
 
-All our programs begin with an ⇢``on start``⇠ block. This block runs all the commands that are inside it as soon as the program begins. It has been provided for you below. If you accidentally delete the block, you can find it under the *"Loops"* menu.
+Tutti i nostri programmi iniziano con un ⇢``on start``⇠ block. 
+Questo blocco esegue tutti i comandi che si trovano al suo interno non appena inizia il programma. Ti è stato fornito di seguito. Se elimini accidentalmente il blocco, puoi trovarlo nel menu *"Loops"* .
 ```blocks
 /**
  * This is the "on start" block
@@ -39,15 +40,18 @@ All our programs begin with an ⇢``on start``⇠ block. This block runs all the
 ## Step 2
 ** Follow Along**
 
-Next you will need to create your **Turtle Object**. To do this you use the ⇢``set myTurtle to a Turtle Object with sprite □ of kind Player``⇠ block and place it inside the ⇢``on start``⇠ block. This creates the **Turtle Object**. This object is being held in the default variable "myTurtle". The variable we previously created was "myDuck", so we will change this variable to ours.
+Successivamente dovrai creare il tuo **Oggetto Omarillo**. Per fare ciò utilizza ⇢``set myTurtle to a Turtle Object with sprite □ of kind Player``⇠ block e posizionarlo all'interno del ⇢``on start``⇠ block. 
+Questo crea l'**Omarillo Object**. Questo oggetto viene mantenuto nella variabile predefinita "myTurtle". La variabile che abbiamo creato in precedenza era "myDuck", 
+quindi cambieremo questa variabile nella nostra.
 ```blocks
-let myDuck = turtle.fromSprite(sprites.create(img``, SpriteKind.Player))
+let myDuck = omarillo.fromSprite(sprites.create(img``, SpriteKind.Player))
 ```
 
 ## Step 2.1
 ** Follow Along**
 
-By default the sprite that our Turtle Object contains is nothing. We can select the sprite box and then either draw one or select one from the gallery. Select the "duck" from the gallery.
+Per impostazione predefinita, lo sprite contenuto nel nostro oggetto Tartaruga non è nulla. Possiamo selezionare la casella dello sprite e poi disegnarne una o selezionarne una dalla galleria. Seleziona la "duck" dalla galleria.
+
 ```blocks
 let myDuck = turtle.fromSprite(sprites.create(img`
     . . . . . . . . . . b 5 b . . . 
