@@ -5,13 +5,13 @@
 ## Turtle Logo - Lesson #1, Programmiamo utilizzando variabili e sprite @unplugged
 **Welcome to coding with Omarillo Logo.**
 
-In questa lezione creerai il tuo primo programma per Omarillo, utilizzando variabili e sprite. Verrà visualizzato un **Oggetto Tartaruga** nella tua console di gioco e dirà "Ciao, mondo!", come  **Turtle Object**  dice :
+In questa lezione creerai il tuo primo programma per Omarillo, utilizzando variabili e sprite. Verrà visualizzato un **Oggetto Omarillo** nella tua console di gioco e dirà "Ciao, benvenuti all'Omar di Oleggio!", come  **Turtle Object**  dice "Hello, Word!" :
 ![Hello, World!](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-lesson1-advanced/raw/main/assets/hello_world_screenshot.png)
 
 ## Step 0
 ** Technical Stuff**
 
-Prima di iniziare a scrivere codice, devi assicurarti di comprendere quali variabili sono presenti nella programmazione e come utilizzarle. Una variabile è semplicemente una posizione di memoria utilizzata dal programma per conservare le informazioni. Per creare una variabile utilizzare il menu "Variables/Variabili" e selezionare "Make a Variable/Crea una variabile".
+Prima di iniziare a scrivere codice, devi assicurarti di comprendere il concetto di **variabile**, le variabili sono presenti nella programmazione e dobbiamo capire come utilizzarle. Una variabile è semplicemente una posizione di memoria utilizzata dal programma per conservare le informazioni. Per creare una variabile utilizzare il menu "Variables/Variabili" e selezionare "Make a Variable/Crea una variabile".
 
 ## Step 00
 ** Technical Stuff**
@@ -40,8 +40,8 @@ Questo blocco esegue tutti i comandi che si trovano al suo interno non appena in
 ## Step 2
 ** Follow Along**
 
-Successivamente dovrai creare il tuo **Oggetto Omarillo**. Per fare ciò utilizza ⇢``set myTurtle to a Turtle Object with sprite □ of kind Player``⇠ block e posizionarlo all'interno del ⇢``on start``⇠ block. 
-Questo crea l'**Omarillo Object**. Questo oggetto viene mantenuto nella variabile predefinita "myTurtle". La variabile che abbiamo creato in precedenza era "myDuck", 
+Successivamente dovrai creare il tuo **Oggetto Omarillo**. Per fare ciò utilizza ⇢``set myOmarilo to a Omarillo with sprite □ of kind Player``⇠ block e posizionarlo all'interno del ⇢``on start``⇠ block. 
+Questo crea l'**Omarillo Object**. Questo oggetto viene mantenuto nella variabile predefinita "myOmarillo". La variabile che abbiamo creato in precedenza era "myDuck", 
 quindi cambieremo questa variabile nella nostra.
 ```blocks
 let myDuck = omarillo.fromSprite(sprites.create(img``, SpriteKind.Player))
@@ -76,9 +76,9 @@ let myDuck = turtle.fromSprite(sprites.create(img`
 ## Step 3
 ** Follow Along**
 
-Now that we have a **Turtle Object**, you can ask it to say something. Drag out the ⇢``myTurtle says "Hello, World!" ⊕``⇠ block and place it inside the ⇢``on start``⇠ block but under the previous block. you will once again have to change the variable, to refer to the one you are using, "myDuck".
+Ora che abbiamo un **Oggetto Omarillo**, puoi chiedergli di dire qualcosa. Trascina fuori il ⇢``myOmarillo says "Hello, World!" ⊕``⇠ block e posizionarlo all'interno del ⇢``on start``⇠ blockma sotto il blocco precedente. dovrai ancora una volta modificare la variabile, per fare riferimento a quella che stai utilizzando, "myDuck".
 ```blocks
-let myDuck = turtle.fromSprite(sprites.create(img`
+let myDuck = omarillo.fromSprite(sprites.create(img`
     . . . . . . . . . . b 5 b . . . 
     . . . . . . . . . b 5 b . . . . 
     . . . . . . b b b b b b . . . . 
@@ -96,14 +96,15 @@ let myDuck = turtle.fromSprite(sprites.create(img`
     . . . c c c c c c c c b b . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player))
-myDuck.say("Hello, World!")
+myDuck.say("Ciao, ciao!")
 ```
 ## Step 4
 **Success!**
+Puoi anche fare clic su "⊕" e cambiare i millisecondi con un numero più grande, per far rimanere il messaffio più a lungo
 
-Notice in the game console to the left, your **Turtle Object** said "Hello, World!" for 5 second and then the words vanish. If you want to run your program again, click the "🔁" button on the game console. You can also click the "⊕" and change the milliseconds to a larger number, to make it stay longer.
+.
 ```blocks
-let myDuck = turtle.fromSprite(sprites.create(img`
+let myDuck = omarillo.fromSprite(sprites.create(img`
     . . . . . . . . . . b 5 b . . . 
     . . . . . . . . . b 5 b . . . . 
     . . . . . . b b b b b b . . . . 
@@ -121,15 +122,15 @@ let myDuck = turtle.fromSprite(sprites.create(img`
     . . . c c c c c c c c b b . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player))
-myDuck.say("Hello, World!", 30000)
+myDuck.say("Ciao, ciao!", 30000)
 ```
 
 ## Step 4
-**Your Turn**
+**Tocca a te**
 
-Get the **Turtle Object** to say your name!
+Ottieni l'**Oggetto Omerillo** che pronuncia il tuo nome!
 
 ## Step 5
 **Done**
 
-You have successfully completed your first lesson in Turtle Logo.
+You have successfully completed your first advanced lesson in Omarillo Logo.
