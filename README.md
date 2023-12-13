@@ -53,7 +53,7 @@ let myDuck = omarillo.fromSprite(sprites.create(img``, SpriteKind.Player))
 Per impostazione predefinita, lo sprite contenuto nel nostro oggetto Tartaruga non è nulla. Possiamo selezionare la casella dello sprite e poi disegnarne una o selezionarne una dalla galleria. Seleziona la "duck" dalla galleria.
 
 ```blocks
-let myDuck = turtle.fromSprite(sprites.create(img`
+let myDuck = omarillo.fromSprite(sprites.create(img`
     . . . . . . . . . . b 5 b . . . 
     . . . . . . . . . b 5 b . . . . 
     . . . . . . b b b b b b . . . . 
